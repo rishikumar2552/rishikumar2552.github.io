@@ -1,0 +1,147 @@
+.nav{
+	display:inline-block;
+	margin-top: 5px;
+	}
+.nav ul{
+	padding-left: 600px;
+}
+.nav ul li{
+
+	text-decoration-color: grey;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.nav button{
+	font-weight: bold;
+	color: white;
+	background-color: #3BEABB;
+	text-align: center;
+	margin-left: 50px;
+	border-radius: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.hero{
+	margin-top: 15px;
+
+	background-image: url("stay.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+
+.hero-text {
+	
+  text-align: center;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+
+  color: black;
+  position: absolute;
+}
+
+.email{
+	border-top-left-radius: 25px; 
+	border-bottom-left-radius: 25px;
+	height: 50px;
+	width: 400px;
+	}
+
+.stayupdated{
+	margin-left: -25px;
+	border-radius: 25px;
+	height: 50px;
+	padding: 0px 50px 0px 50px; 
+	color: white;
+	background-color: #3BEABB;
+	font-weight: bold;
+	
+}
+
+.Features i{
+   font-size: 40px;
+   color: #0ADEBA;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.Features h4{
+
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #0ADEBA;
+	display: block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+h5:after {
+	width: 100px;
+	height: 2px;
+	background-color: #0ADEBA;
+	display: block;
+	content: "";
+	margin-top: 30px;
+
+
+}
+
+.stay_btn{
+	font-weight: bold;
+	margin-top: 20px;
+	border-radius: 25px;
+	height: 40px;
+	padding: 0px 40px 0px 40px; 
+	background-color: #3BEABB;
+	color: white;
+}
+
+
+.testimonials{
+	
+	
+	margin-top: 30px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+	
+	
+
+
+}
+
+.testimonials p{
+	padding: 25px 10px 15px 10px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 300px;
+	background-color: #EFECE6;
+	color: black;
+	line-height: 25px;
+	margin-top: 50px;
+
+
+}
+
+.testimonials cite img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: 65px;
+
+}
