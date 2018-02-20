@@ -22,9 +22,8 @@
 	padding-right: 30px;
 }
 
-.hero{
+.hero{width: 100%;
 	margin-top: 15px;
-
 	background-image: url("stay.jpg");
   background-repeat: no-repeat;
   position: relative;
@@ -144,4 +143,141 @@ h5:after {
 	margin-right: auto;
 	margin-left: 65px;
 
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+	border-radius: 10px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+
+.pagination a:hover:not(.active) {
+	background-color: grey;
+}
+
+.subs{
+	margin-left: -25px;
+	border-radius: 25px;
+	height: 40px;
+	padding: 0px 25px 0px 25px; 
+	color: white;
+	background-color: #3BEABB;
+	font-weight: bold;
+	
+}
+
+/*for social links*/
+
+
+.wrapper ul{
+	margin-left: 20px;
+	list-style: none;
+}
+
+.wrapper ul li{
+	width: 45px;
+	height: 45px;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	float: left;
+	transition: all 0.2s ease;
+}
+
+.wrapper ul li .fa{
+	font-size: 24px;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	
+	margin-top: 7px;
+
+}
+.wrapper ul li:hover:nth-child(1){
+	border: 3px solid #3b5998;
+	box-shadow: 0 0 15px #3b5998;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-facebook{
+	color: #3b5998;
+	text-shadow: 0 0 15px #3b5998;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover:nth-child(2){
+	border: 3px solid #00aced;
+	box-shadow: 0 0 15px #00aced;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-twitter{
+	color: #00aced;
+	text-shadow: 0 0 15px #00aced;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover:nth-child(3){
+	border: 3px solid #dd4b39;
+	box-shadow: 0 0 15px #dd4b39;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-google{
+	color: #dd4b39;
+	text-shadow: 0 0 15px #dd4b39;
+	transition: all 0.1s ease;
+}
+.wrapper ul li:hover:nth-child(4){
+	border: 3px solid #588EFA;
+	box-shadow: 0 0 15px #588EFA;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin{
+	color: #588EFA;
+	text-shadow: 0 0 15px #588EFA;
+	transition: all 0.1s ease;
+}
+
+.holder { 
+  
+  width:300px;
+  height:250px;
+  overflow:hidden;
+  padding:10px;
+ 
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width:300px;
+  height:240px;
+  overflow: hidden;
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:darkred;
+  text-decoration:none;
 }
