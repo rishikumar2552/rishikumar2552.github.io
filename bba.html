@@ -4,11 +4,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Temple of learnig |BMS/BBS|LAW|MASS COMM.|HOTEL MANAGEMENT</title>
 	<link rel="stylesheet" type="text/css" href="check.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+<!--FOR ICON FONTAWESOME-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-	<div style=" margin-left: 1100px; margin-top: 10px;"><i class="fa fa-phone"></i> 98989898989</div>
+	<div style=" margin-left: 1100px; margin-top: 10px;"><i class="fa fa-phone fa-flip-horizontal"></i> 98989898989</div>
   
   <nav class="nav">
 	<img src="xyz.jpg">
@@ -31,14 +46,177 @@
 	<div style=" background-color: white; margin-top: 60px; width: 1100px; height: 800px; margin-left: auto; margin-right: auto;">
 <div class="row" >
 		<div class="col-md-3" style="margin-top: 60px;"><h6>About Exam</h6>
-			<ul>
+			<!--for sidebar nav-->
+		<!--	<script type="text/javascript">
+				$(document).ready(function(){
+    $("#bbacareer").click(function(){
+        $("#bbalist").toggle();
+    });
+     $("#topcollege").click(function(){
+        $("#collegelist").toggle();
+    });
+      $("#exam").click(function(){
+        $("#examlist").toggle();
+    });
+       $("#program").click(function(){
+        $("#programlist").toggle();
+    });
+});
+			</script>
+
+			<ul style="list-style: none;">
 				
+				<li>About Exam
+				
+				</li>
+
+				<li id="bbacareer">BBA Careers
+					<ul id="bbalist">
+						<li>career 1</li>
+						<li>career 2</li>
+					</ul>
+				</li>
+				<li id="topcollege">Top Colleges
+					<ul id="collegelist">
+						<li>college 1</li>
+						<li>college 2</li>
+					</ul> </li>
+				<li id="exam">Entrance Exams
+					<ul id="examlist">
+						<li>DU-JAT</li>
+						<li>IPU CET</li>
+						<li>SET</li>
+						<li>Christ University</li>
+						<li>IPMAT</li> 
+						<li>NPAT</li>
+					</ul> 
+				</li>
+				<li id="program">Programs
+					<ul id="programlist">
+						<li>program1</li>
+				</ul>
+				</li>
+				<li data-toggle="collapse" data-target="#demoz">Test Mock Series
+					<ul class="collapse" id="demoz">
+						<li>mock 1</li>
+				</ul>
+				</li>
+				<li class="collapse" id="demoz">
+						<li>mock 1</li>
+					</li>
 			</ul>
+
+
+
+	<script type="text/javascript">
+				$(document).ready(function(){
+					 $('.bbaq:not(:first)').hide();
+    $("#bbaq").click(function(){
+        $("#bbaqp").toggle();
+    });
+    $("#aboutq").click(function(){
+        $("#aboutqp").toggle();
+    });
+    });
+
+<script language="javascript"> 
+function toggle() {
+	var ele = document.getElementById("toggleText");
+	var text = document.getElementById("displayText");
+			if(ele.style.display == "block") {
+    		ele.style.display = "block";
+		
+  	}
+	} 
+</script>
+
+-->
+
+<div class="sidebar left" style="margin-left: 20px;">
+  <ul class="list-sidebar bg-defoult" style="line-height: 30px;">
+
+  	<li  data-toggle="collapse" data-target="#dashboard" class="collapsed active" > <i class="fas fa-globe fa-3x" style="font-size: ;"></i> <span class="nav-label"> About Exam</span> </span> 
+    
+    </li>
+    <hr>
+
+    <li style="font-weight: bold; margin-left: 10px;" data-toggle="collapse" data-target="#about" class="collapsed active" > <i class="fas fa-briefcase fa-3x"></i> <span class="nav-label">BBA Careers</a> </span>
+      
+    </li>
+
+<hr>
+  	<li style="font-weight: bold; margin-left: 10px;" data-toggle="collapse" data-target="#topcollege" class="collapsed active" > <i class="fas fa-graduation-cap fa-3x"></i> <span class="nav-label">Top Colleges</span> 
+    </li>
+<hr>
+
+ <li style="font-weight: bold; margin-left: 10px;" style="cursor: pointer;" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fas fa-list-ol fa-3x"></i> <span class="nav-label">Entrance Exams</span> <span style=" margin-top: 10px; " class="fa fa-chevron-right pull-right"></span>
+      <ul class="sub-menu collapse" id="products">
+       
+        <li><a href="#">DU-JAT</a></li>
+		<li><a href="#">IPU CET</a></li>
+		<li><a href="#">SET</a></li>
+		<li><a href="#">Christ University</a></li>
+		<li><a href="#">IPMAT</a></li> 
+		<li><a href="#">NPAT</a></li>
+      </ul>
+  </li>
+<hr>
+
+<li style="cursor: pointer;" data-toggle="collapse" data-target="#programs" class="collapsed active" > <i class="fas fa-columns fa-3x"></i> <span class="nav-label" style="font-weight: bold; margin-left: 10px;">Programs</span> <span style=" margin-top: 10px; " class="fa fa-chevron-right pull-right"></span>
+      <ul class="sub-menu collapse" id="programs">
+       
+     	<li><a href="#">One year classroom program</a></li>
+		<li><a href="#">Two year classroom program</a></li>
+		<li><a href="#">Crash Course</a></li>
+		<li><a href="#">One year contact program</a></li>
+		<li><a href="#">Two year contact program</a></li> 	
+      </ul>
+  </li>
+<hr>
+
+<li style="cursor: pointer;" data-toggle="collapse" data-target="#testseries" class="collapsed active" ><i class="fas fa-tasks fa-3x"></i> <span class="nav-label">Test Series</span> <span style=" margin-top: 10px; " class="fa fa-chevron-right pull-right"></span>
+      <ul class="sub-menu collapse" id="testseries">
+       
+        <li><a href="#">Monthly Mock</a></li>
+	    <li><a href="#">Mock Test</a></li> 
+						
+      </ul>
+  </li>
+
+<hr>
+
+</ul>
+</div>
+
+
 		</div>
-		<div class="col-md-6" style="margin-top: 60px;"> GGSIP</div>
-		<div class=" col-md-3" style="margin-top: 60px; font-weight: 30px; color: grey; ">Mock Paper Download</div>
+	
+		<div class="col-md-5" style="margin-top: 60px;"> GGSIP
+				<div>
+					<p >this is just a demo.</p>
+					<p >hy how are you?</p>	
+					</div>
+
+		</div>
+		<div class=" col-md-4" style="margin-top: 60px;  color: grey; "><h6 style="font-weight: bold; font-size: 25px;">Mock Paper Download</h6>
+			<form>
+			<input type="text" name="name" placeholder="      Name" style="height: 40px; margin-top: 20px; border-style: none; width: 280px; background-color: #EFECE6;">
+			
+			<input type="text" name="email" placeholder="     Email" style="height: 40px; margin-top: 20px; border-style: none;width:280px; background-color: #EFECE6">
+			
+			<input type="text" name="mobile" placeholder="     Mobile" style="height: 40px; margin-top: 20px; border-style: none;width:280px; background-color: #EFECE6">
+			
+			<input type="text" name="area" placeholder="      Area" style="height: 40px; margin-top: 20px; border-style: none;width: 280px; background-color: #EFECE6"> 
+			</form>
+			<button class="stay_btn"><a href="#" style="margin-top: 30px; text-decoration: none;"> Explore More</a></button>
+		</div>
 </div>
 </div>
 <div style="background-color: #EFECE6; height: 50px; "></div>
+
+<div>
+	
+</div>
+
 </body>
 </html>
