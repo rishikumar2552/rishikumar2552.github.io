@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="check.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div style=" margin-left: 1100px; margin-top: 10px;"><i class="fa fa-phone"></i> 98989898989</div>
@@ -28,83 +30,121 @@
 <div class="hero" style="height: 300px;">
 
 	<div class="hero-text">
-   <h3  style="text-align: center; color: white;"><b>ABOUT US</b></h3>
+   <h3 style="text-align: center; color: white;"><b>CONTACT US</b></h3>
     
 </div>
-</div>	
+</div>
+<section class="row">
+
+	<div class="col-md-6"> --0 here we will place the map image --
+
+		<h6 style=" color: grey; font-weight: bold; font-size: 25px; margin-left: 60px;">Select Locations</h6>
+
+		<div > 
+			<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+		 <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Select Area or Hover on map<span style="float: right;" class="fa fa-chevron-down"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#place1">Mumbai</a>
+    <a href="#place2">place 2</a>
+    <a href="#place3">place 3</a>
+  	<a href="#place4">place 4</a>
+    <a href="#place5">place 5</a>
+    <a href="#place6">place 6</a>
+  </div>
+</div>
 
 
-	<section style=" background-color:  white;  height: 600px;">
-	<div style="float: right; background-color: black; width: 30%; height: 400px; margin-right: 120px; margin-top: 90px;"></div>
-	<div style="margin-left: 120px; margin-top: 140px; float: left; background-color:  white; width: 30%; height: 400px;">
-		<h5  style="background-color:  white;  margin-right: 10px; font-weight: bold;">MISSION</h5>
-		<p style="background-color:  white; margin-top: 20px;">Our intensive Law program focuses on enhancing the ability to communicate, analyse situations, present own views infront of a large audience, take deciions usingb quantitative and qualitative factors, and develop holistic view of the different functional areas of business environment. This course helps one become more adept in differant aspect of running a business.</p>
-		
+</div>
 	</div>
-</section>
 
+	<div class="col-md-6">
+	<h5 style=" font-weight: bold; margin-top: 60px; ">CORPORTATE OFFICE</h5>
+	<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>
+	<p style="margin-top: 30px"> <strong>Email</strong>: contact@tol.com </p>
+	
+	<p style=" position: absolute; font-weight: bold;"> Phone: </p>
+	<ul style="list-style: none; position: relative; line-height: 20px; margin-left: 30px; ">
+		<li >02266170000</li>
+		<li> 02266680005</li>
+		<li> 02266680005</li>
+	</ul>
 
-<section class="Features" style="background-color: #EFECE6; height: 500px;">
-  <div class="container">
+	            
+</div>
+<div class="container">
     <div class="row">
      <div class="col-md-4">
-      <i class="fa fa-graduation-cap"></i>
-     	<h4 > PERSONALISED LEARNING</h4>
-     	  <p style="text-align: center;">
-     	Instruction in which the pace of learning and the instructional approach are optimised for the needs of each learner.
-          </p>
+      
+     	<h4 > place 1</b></h4>
+     	 
+     	  	<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>
+     	  	 
     </div>
      <div class="col-md-4">
-       <i class="fa fa-camera"></i>
-       <h4> ORGANIZED APPROACH</h4>
-       <p style="text-align: center;">
-     		All knowledge is shared in a way that what is seen is correlated with the way that it is seen.
-       </p>
+       
+       <h4> place 2</h4>
+       
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>       
      </div>
       <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 > YEARS OF EXPERTISE</h4>
-     	<p style="text-align: center;">
-				Have trained over 45000+ professionals through a network of 1500 experts trainers and 20 experts
-        </p>
+      
+       <h4 > place 3</h4>
+     	
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>        
       </div>
       <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 >RENOWED FACULTY</h4>
-     	<p style="text-align: center;">
-				Learn from highly qualified and experienced industry practitioners
-        </p>
+      
+       <h4 >place 4</h4>
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>        
       </div>
       <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 >IMPART KNOWLEDGE</h4>
-     	<p style="text-align: center;">
-				Ensure the things your people need to know are remembered, and put into practice
-        </p>
+       
+       <h4 >place 5</h4>
+     	
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>        
       </div>
-      <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 >MEASURE IMPACT ON RESULTS</h4>
-     	<p style="text-align: center;">
-				Tie learning prograammers directly to business outcomes to show the value of your programs
-        </p>
-      </div>
+      
+
      </div>
   </div>
+
 </section>
 
 
-<section style="background-color: white; height: 600px;">
-	<div style="float: left; background-color: black; width: 30%; height: 400px; margin-left: 120px; margin-top: 90px;"></div>
-	<div style="margin-right: 120px; margin-top: 140px; float: right; background-color: white; width: 30%; height: 400px;">
-		<h5  style="background-color: white;  margin-left: 10px; font-weight: bold;">VALUES</h5>
-		<p style="background-color: white; margin-top: 20px;">Our intensive BBA program focuses on enhancing the ability to communicate, analyse situations, present own views infront of a large audience, take deciions usingb quantitative and qualitative factors, and develop holistic view of the different functional areas of business environment. This course helps one become more adept in differant aspect of running a business.</p>
-	</div>
-</section>
-
+<section>
+	
 
 <div style="background-color: #EFECE6; height: 250px;">
-	<cite class="col-md-3" style="margin-left: 50px; margin-top: 30px;"><img src="img/nadal.jpg">JATIN Law Student</cite>
+	<cite class="col-md-3" style="margin-left: 50px; margin-top: 30px;"><img src="img/nadal.jpg">KRITI Law Student</cite>
 	<p class="col-md-7" style="margin-left: 30px; display: inline-block; padding: 10px 30px 10px 30px; margin-top: 60px; background-color: white; color: grey; "><i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamct occaecat cupidatat non
@@ -112,6 +152,7 @@
 	
 </div>
 
+</section>
 
 
 <footer style="background-color: black; height: 350px; ">
@@ -162,11 +203,15 @@
 </footer>
 
 
-<div style="background-color: grey; height: 70px; "> 
-<div style="margin-left: 60px; margin-top: 20px; display: inline-block; color: white"> &copy 2018 Temple of Learning   <a style="margin-left: 20px; color: white; text-decoration: none" href="#">info@tol.com</a> <a href="#"  style="margin-left: 650px; color: white; text-decoration: none">Terms of Use</a>
-<a href="#"  style="margin-left: 20px; color: white; text-decoration: none"> Privacy Policy</a>
+<div style="background-color: grey; height: 70px;"> 
+<div style="margin-left: 60px; margin-top: 20px; display: inline-block; color: white"> &copy 2018 Temple of Learning   <a  href="#" style="margin-left: 20px; color: white; text-decoration: none;">info@tol.com</a> <a href="#" style="margin-left: 650px; color: white; text-decoration: none;">Terms of Use</a>
+<a href="#"  style="margin-left: 20px; color: white; text-decoration: none;"> Privacy Policy</a>
 </div>
 </div>
 
+
 </body>
 </html>
+
+
+

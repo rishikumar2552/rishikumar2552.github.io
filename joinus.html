@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Temple of learnig |BMS/BBS|LAW|MASS COMM.|HOTEL MANAGEMENT</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body  id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<style type="text/css">
+		.slideanim{visibility: hidden;}
+		.slide{
+			 animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+		}
+		  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+	</style>
+	
+ 
+  <nav class="navbar navbar-default navbar-fixed-top" style="display:inline-block;">
+	<div>
+	<div class="col-sm-4"></div>
+	<div class="col-sm-6"></div>
+	<div class="col-sm-2" style="   margin-top: 5px;"><i class="fa fa-phone"></i> 98989898989</div>
+  	</div>
+  	<div  class="container">
+	
+	<div class="collapse navbar-collapse " id="myNavbar" >
+	<ul  style="font-size: 15px; font-weight: bold; display:inline-block;
+	margin-top: 5px;" class="nav navbar-nav navbar-right" style="padding-left: 600px;">
+
+       <li><a href="#home" style="text-decoration-color: grey;
+	padding-left: 20px;
+	margin-left: 10px; color: grey; text-decoration: none;">Home</a></li>
+        <li><a href="#offering" style=" text-decoration-color: grey;
+	padding-left: 20px;
+	margin-left: 10px;color: grey; text-decoration: none;">Offering</a></li>
+        <li><a href="#values" style="text-decoration-color: grey;
+	padding-left: 20px;
+	margin-left: 10px;color: grey; text-decoration: none;">Values</a></li>
+        <li><a href="#presence" style="text-decoration-color: grey;
+	padding-left: 20px;
+	margin-left: 10px;color: grey; text-decoration: none;">Presence</a></li>
+        <li><a href="#faq" style="text-decoration-color: grey;
+	padding-left: 20px;
+	margin-left: 10px;color: grey; text-decoration: none;">FAQ</a></li>
+	
+	<li><button onclick="#" style="
+	margin-top: 10px;
+	border-style: none;
+	height: 30px;
+	font-weight: bold;
+	color: white;
+	background-color: #3BEABB;
+	text-align: center;
+	margin-left: 50px;
+	border-radius: 12px;
+	padding-left: 30px;
+	padding-right: 30px;">Subscribe</button></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<!--company about bla bla-->
+<div style="width: 100%; margin-top: 15px;
+	 background-repeat: no-repeat; position: relative; height: 600px; background-image: url('stay.jpg');">
+
+	<div style="
+  text-align: center;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+  color: black;
+  position: absolute;">
+    <h1 style="font-size:50px; color: white;" >RANDOM TITLE</h1>
+    
+
+    <button onclick="#" style="
+    margin-top: 30px;
+    font-weight: bold;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+	color: white;
+	background-color: #3BEABB;
+	text-align: center;
+	
+	border-radius: 25px;
+	padding-left: 30px;
+	padding-right: 30px;">Join Us</button>
+</div>
+</div>
+
+<style>
+.join i{
+ display: flex;
+   align-items: center;
+   justify-content: center;	
+}
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #0ADEBA;
+	display: block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/*for neon line aftyer heading-- */
+h5:after{
+
+	width: 100px;
+	height: 2px;
+	background-color: #0ADEBA;
+	display: block;
+	content: "";
+	margin-top: 30px;
+} 
+
+.dropbtn {
+	font-weight: bold;
+	text-align: left;
+	margin-left: 60px;
+	border-style: none;
+	width: 400px;
+    background-color: #EFECE6;
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #F4E5F9;
+}
+
+.dropdown {
+	width: 400px;
+	margin-left: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	margin-left: 60px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 400px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+
+	text-decoration: none;
+	background-color: #ddd}
+
+.show {display:block;}
+
+.box{
+	position: absolute;
+
+    width: 700px;
+    background: #EFECE6;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.box input{
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+
+.box textarea{
+	height: 100px;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+
+.box input,
+.box textarea{
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	
+}
+.box textarea{
+	margin-bottom: 20px;
+}
+.box  input[type="submit"]{
+	border-bottom: none;
+	cursor: pointer;
+	background: #0ADEBA;
+	color: white;
+	border-radius: 25px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.box form div{
+	position: relative;
+}
+.box form div label{
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	color: #0ADEBA;
+	transition: .5s;
+	pointer-events: none;
+}
+
+.box input:focus ~ label,
+.box textarea:focus ~ label,
+.box input:valid ~ label,
+.box textarea:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #0ADEBA;
+    font-size: 15px;
+    
+}
+
+
+.wrapper ul{
+	margin-left: 20px;
+	list-style: none;
+}
+
+.wrapper ul li{
+	width: 45px;
+	height: 45px;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	float: left;
+	transition: all 0.2s ease;
+}
+
+.wrapper ul li .fa{
+	font-size: 24px;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	
+	margin-top: 7px;
+
+}
+.wrapper ul li:hover:nth-child(1){
+	border: 3px solid #3b5998;
+	box-shadow: 0 0 15px #3b5998;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-facebook{
+	color: #3b5998;
+	text-shadow: 0 0 15px #3b5998;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover:nth-child(2){
+	border: 3px solid #00aced;
+	box-shadow: 0 0 15px #00aced;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-twitter{
+	color: #00aced;
+	text-shadow: 0 0 15px #00aced;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover:nth-child(3){
+	border: 3px solid #dd4b39;
+	box-shadow: 0 0 15px #dd4b39;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-google{
+	color: #dd4b39;
+	text-shadow: 0 0 15px #dd4b39;
+	transition: all 0.1s ease;
+}
+.wrapper ul li:hover:nth-child(4){
+	border: 3px solid #588EFA;
+	box-shadow: 0 0 15px #588EFA;
+	transition: all 0.1s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin{
+	color: #588EFA;
+	text-shadow: 0 0 15px #588EFA;
+	transition: all 0.1s ease;
+}
+
+
+</style>
+
+<!-- Container (About Section) -->
+<section>
+	<h3 style="text-align: center; font-weight: bold;">OUR OFFERING</h3>
+
+<div style="margin-top: 60px;" id="offering" class="container-fluid">
+   <div class="container">
+    <div class="row">
+
+     <div class="col-md-3">
+     	<div class="join">
+      <i  class="fa fa-graduation-cap fa-3x"></i>
+     	<h4 style="margin-top: 30px; text-align: center;"> BBA/BMS</b></h4>
+     	  <p style="margin-top: 30px; text-align: center;">
+     	Instruction in which the pace of learning and the instructional approach are optimised for the needs of each learner.
+          </p>
+      </div>
+    </div>
+
+
+     <div class="col-md-3">
+     	<div class="join">
+       <i  class="fa fa-camera fa-3x"></i>
+       <h4 style="margin-top: 30px; text-align: center;"> MASS COMMUNICATION</h4>
+       <p style="margin-top: 30px; text-align: center;">
+     		All knowledge is shared in a way that what is seen is correlated with the way that it is seen.
+       </p>
+   </div>
+     </div>
+
+      <div class="col-md-3">
+       <div class="join">
+       <i class="fa fa-envelope fa-3x"></i>
+       <h4 style="margin-top: 30px; text-align: center;">HOTEL MANAGEMENT</h4>
+     	<p style="margin-top: 30px; text-align: center;">
+				Have trained over 45000+ professionals through a network of 1500 experts trainers and 20 experts
+        </p>
+    </div>
+      </div>
+
+      <div class="col-md-3">
+       <div class="join">
+       <i class="fa fa-envelope fa-3x"></i>
+       <h4 style="margin-top: 30px; text-align: center;">LAW</h4>
+     	<p style="margin-top: 30px; text-align: center;">
+				Learn from highly qualified and experienced industry practitioners
+        </p>
+    </div>
+    </div>
+    		</div>
+      </div>
+</div>
+</section>
+
+
+<!-- Container (Services Section) -->
+<section>
+	<h3 style="text-align: center; font-weight: bold; margin-top: 60px;">BUSINESS VALUES</h3>
+<div id="values" class="container-fluid text-center">
+  
+  <div class="row slideanim">
+    <div class="col-sm-4">
+
+    	<div  style="margin-top: 30px;
+   align-items: right;
+   justify-content: right;	">
+       <i class="fa fa-envelope fa-3x pull-right"></i>
+       <br>
+      <h4 style="text-align: right; margin-top: 30px;">POWER</h4>
+      <p style="text-align: right; margin-top: 30px;">Lorem ipsum dolor sit amet..</p>
+</div>
+<div style="margin-top: 40px;" style="
+   align-items: right;
+   justify-content: right;	">    
+
+      <i class="fa fa-envelope fa-3x pull-right"></i>
+      <br>
+      <h4 style="text-align: right; margin-top: 30px;">LOVE</h4>
+      <p style="text-align: right; margin-top: 30px;">Lorem ipsum dolor sit amet..</p>
+    </div>
+    </div>
+<!--for center icon and heading-->
+    <div class="col-sm-4" style="align-self: center; align-items: center;">
+      <span class="glyphicon glyphicon-lock logo-small fa-3x"></span>
+
+      <h4>JOB DONE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+
+<!--for right side icon and heading-->
+     <div class="col-sm-4">
+     	<div style="margin-top: 30px;
+   align-items: left;
+   justify-content: left;	">
+       <i class="fa fa-envelope fa-3x pull-left"></i>
+       <br>
+      <h4 style="text-align: left; margin-top: 30px;">JOB DONE</h4>
+
+      <p style="text-align: left; margin-top: 30px;">Lorem ipsum dolor sit amet..</p>
+    
+     <div style="margin-top: 40px;" style="
+   align-items: left;
+   justify-content: left;	">    
+
+      <i class="fa fa-envelope fa-3x pull-left"></i>
+      <br>
+      <h4 style="text-align: left; margin-top: 30px;">JOB DONE</h4>
+      <p style="text-align: left; margin-top: 30px;">Lorem ipsum dolor sit amet..</p>
+    </div>
+</div>
+
+  </div>
+  
+</div>
+</section>
+
+
+<!--for presence OR office areas-->
+
+<h3 id="presence" style="text-align: center; font-weight: bold; margin-top: 60px;">PRESENCE</h3>
+
+<section class="row">
+<div class="col-md-6">
+	<div style=" display: flex; flex-direction: column;">
+	<h5 style="text-align: center; align-items: center; align-self: center; font-weight: bold; margin-top: 60px;   ">CORPORTATE OFFICE</h5>
+	<p style="margin-left: 120px; align-items: center; align-self: center;  margin-top: 30px;"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>
+
+	<p style="text-align: center;margin-left: -10px; margin-top: 30px;"> <strong>Email</strong>: contact@tol.com </p>
+	
+	<p  style="text-align: center; margin-top: 30px; margin-left: -110px; font-weight: bold;"> Phone: </p>
+	
+	<ul style=" list-style: none;text-align: center; line-height: 20px;">
+		<li >02266170000</li>
+		<li> 02266680005</li>
+		<li> 02266680005</li>
+	</ul>
+    </div>
+
+<h6 style=" color: grey; font-weight: bold; font-size: 25px; margin-left: 120px; margin-top: 30px;">Select Locations</h6>
+	  <div class="dropdown">
+<button  onclick="myFunction()"  class="dropbtn">Select Area or Hover on map<span style="float: right;" class="fa fa-chevron-down"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#place1">Mumbai</a>
+    <a href="#place2">place 2</a>
+    <a href="#place3">place 3</a>
+  	<a href="#place4">place 4</a>
+    <a href="#place5">place 5</a>
+    <a href="#place6">place 6</a>
+  </div>
+</div>          
+</div>
+	<div class="col-md-6"> --0 here we will place the map image --
+
+		<div > 
+			<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+		 
+
+
+</div>
+	</div>
+
+	
+<div style="margin-top: 40px;" class="container">
+    <div class="row">
+    	 <div style="margin-top: 30px;">
+     <div class="col-md-4">
+      
+     	<h4 > place 1</b></h4>
+     	 
+     	  	<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>
+     	  	 
+    </div>
+
+   
+     <div class="col-md-4">
+       
+       <h4> place 2</h4>
+       
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>       
+     </div>
+      <div class="col-md-4">
+      
+       <h4 > place 3</h4>
+     	
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>        
+      </div>
+      <div class="col-md-4">
+      
+       <h4 >place 4</h4>
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>        
+      </div>
+      <div class="col-md-4">
+       
+       <h4 >place 5</h4>
+     	
+<p style=" margin-top: 30px"> 6th Floor,NCL Building, 'E' Block,<br>
+	    Bandra Kurla Complex(BKC),<br>(Next to CITY PARK- Garden), Bandra(East),<br>Mumbai- 400051.</p>        
+      </div>
+
+      </div>
+
+     </div>
+  </div>
+
+</section>
+
+
+<section  id="faq" style="background-color: #EFECE6; ">
+	<div  style="background-image: url('stay.jpg'); max-width: 100%; margin-top: 30px;  height: 300px;"></div>
+	<h3 style="text-align: center; margin-top: -210px;  color: white;"><b>FAQ</b></h3>
+
+	<div style=" background-color: white; margin-top: 60px; width: 1100px; height: 450px; margin-left: auto; margin-right: auto;">
+
+	<div class="col-md-6">
+			<div  style="margin-left: 30px; height: 60px; width: 500px; background-color: #EFECE6;">	
+          <p style=" margin-top: 40px; padding: 20px 0 0 20px;">1. What is the duration of the crash course?</p>
+          </div>
+
+          <div  style="margin-left: 30px; height: 60px; width: 500px; background-color: #EFECE6;">	
+          <p style=" padding: 20px 0 0 20px;">2. What is the duration of the crash course?</p>
+      		</div>
+ 
+                <div  style="margin-left: 30px; height: 60px; width: 500px; background-color: #EFECE6;">	
+          <p style=" padding: 20px 0 0 20px;">3. What is the duration of the crash course?</p>
+          </div>
+
+          <div  style="margin-left: 30px; height: 60px; width: 500px; background-color: #EFECE6;">	
+ 
+          <p style=" padding: 20px 0 0 20px;">4. What is the duration of the crash course?</p>
+			</div>
+
+          <div  style="margin-left: 30px; height: 60px; width: 500px; background-color: #EFECE6;">	
+
+          <p style="  padding: 20px 0 0 20px;">5. Do you give mock test papers?</p>	 
+			</div>
+		</div>
+	<div class ="col-md-6" style= "background-color:black; margin-top: 40px; width: 400px; height: 350px; margin-left: 50px;">
+	</div>	
+
+</div>
+
+
+<div style="height: 50px; background-color: #EFECE6;">
+	</div>
+</section>
+
+<!--form-->
+<section style="  background-color: white; height: 600px;">
+<h3 style="text-align: center; font-weight: bold; margin-top: 60px;">JOIN US</h3>
+<div style="display: flex;
+	justify-content: center; margin-top: 60px;">
+
+
+<div style="" class="box">
+       
+       	<form>
+       		<div>
+       			<input type="text" name="" required="">
+       			<label>Name</label>
+       		</div>
+       		<div>
+       			<input type="text" name="" required="">
+       			<label>Email</label>
+       		</div>
+       		<div>
+       			<input type="text"  name="" required="">
+       			<label>Mobile</label>
+       		</div>
+              <div>
+              	<textarea required=""></textarea>
+              	<label>Message</label>
+              </div>
+              <input type="submit" name="" value="submit">
+
+
+
+       	</form>
+       </div>
+</div>
+</section>
+
+
+<!--for black footer-->
+<footer style=" background-color: black; height: 350px; ">
+	
+	
+	<div class="row" style="color: white; ">
+		
+		<div class="col-md-4" style="  color: grey;">
+		<div style="margin-left: 50px; margin-top: 70px;">		
+		<img src="...">
+		<p style="margin-top: 40px; width: 250px;">  ipsum dolor sit amet, inim ven shds hjdshs hsjkdjs shdkjsk</p>
+		<h6 style="margin-top: 50px;">18000 - 8080 - 880</h6>
+		<p>Available from 9am - 6pm</p>
+		</div>
+	</div>
+
+		<div class="col-md-2" >
+			<h6 style="font-size: 15px; font-weight: bold; color: grey; margin-top: 70px;">Temple of Learning</h6>
+			<ul style="list-style: none;line-height: 30px; margin-left: -40px; ">
+			 <li><a href="index.html" style="color: grey; text-decoration: none;">Home</a> </li>
+		<li><a href="aboutus.html" style="color: grey; text-decoration: none;">About</a></li>
+				<li><a href="#" style="color: grey; text-decoration: none;">Courses</a></li>
+				<li><a href="#" style="color: grey; text-decoration: none;">Blog</a></li>
+				<li><a href="#" style="color: grey; text-decoration: none;">Centres</a></li>
+				<li><a href="contactus.html" style="color: grey; text-decoration: none;">Contact</a></li>
+			</ul>
+		</div>
+			
+		<div class="col-md-6" >
+			<div style="margin-left: 60px; margin-top: 70px;">
+				<h6 style="margin-top: 30px ; color: grey; font-size: 15px; font-weight: bold;">Get Our Newsletter</h6>	
+			    <input style="margin-top: 20px; border-top-left-radius: 25px;border-bottom-left-radius: 25px;height: 40px;width: 300px; border-style: none;" type="text" name="email" placeholder="        YOUR EMAIL"><button style="margin-left: -25px;	border-radius: 25px;height: 40px; padding: 0px 25px 0px 25px; 	color: white;	background-color: #3BEABB;	font-weight: bold; border-style: none;">SUBSCRIBE</button>
+			    <h6 style="color: grey; margin-top: 50px ; font-size:15px; font-weight: bold; ">Connect with us</h6>
+			    </div>
+    	<div class="wrapper">
+
+   <ul>
+      <li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+   	<li><a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-google " aria-hidden="true"></i></a></li>
+   	<li><a href="#"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+   </ul>
+   </div>
+	</div>
+	</div>
+
+</footer>
+
+<div style="background-color: grey; height: 70px; "> 
+<div style="margin-left: 60px; margin-top: 20px; display: inline-block; color: white"> &copy 2018 Temple of Learning   <a style="margin-left: 20px; color: white; text-decoration: none" href="#">info@tol.com</a> <a href="#"  style="margin-left: 650px; color: white; text-decoration: none">Terms of Use</a>
+<a href="#"  style="margin-left: 20px; color: white; text-decoration: none"> Privacy Policy</a>
+</div>
+</div>
+
+
+<!--for slide animation-->
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
+
