@@ -12,6 +12,7 @@
 	margin-left: 10px;
 }
 .nav button{
+	border-style: none;
 	font-weight: bold;
 	color: white;
 	background-color: #3BEABB;
@@ -50,6 +51,7 @@
 	}
 
 .stayupdated{
+	border-style: none;
 	margin-left: -25px;
 	border-radius: 25px;
 	height: 50px;
@@ -99,6 +101,7 @@ h5:after {
 }
 
 .stay_btn{
+	cursor: pointer;
 	border-style: none;
 	font-weight: bold;
 	margin-top: 20px;
@@ -167,6 +170,7 @@ h5:after {
 }
 
 .subs{
+	border-style: none;
 	margin-left: -25px;
 	border-radius: 25px;
 	height: 40px;
