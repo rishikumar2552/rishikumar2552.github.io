@@ -77,37 +77,21 @@
 <div id="status"></div>
 <button onclick="login()">login</button>
 
-<style>
-    .faq > ul > li:not( .is-active ) > div
-{
-    display: none;
+	<button onclick="onButtonClick()">login</button>
+
+	<fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
+	
+	<script>
+	function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
 }
-</style>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Search</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-</head>
-<body>
-    
-<form action="search.php" method="GET">
-        <input type="text" name="query" />
-        <input type="submit" value="Search" />
-    </form>
- 
-</body>
-</html>
-
-<script>
-    
-$( document ).on( 'click', '.faq h2 a', function( e )
-{
-    e.preventDefault();
-    $( this ).parents( 'li' ).toggleClass( 'is-active' );
-});
-</script>
-
+		
+		</script>
 <!-- <canvas data-processing-sources="hello-web.pde"></canvas>
 
     <script type="text/processing" data-processing-target="processing-canvas">
