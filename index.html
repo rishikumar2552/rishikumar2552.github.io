@@ -1,385 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-	<title>Temple of learning |BMS/BBS|LAW|MASS COMM.|HOTEL MANAGEMENT</title>
-	<link rel="stylesheet" type="text/css" href="check.css">
-	<!--<script type="javascript" src="main.js"></script>-->
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script>
+<script src="processing-1.3.6.min.js"></script>
 
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="shortcut icon" href="images/title2.jpg" />
+<title>Rishi Kumar</title>
 </head>
-<body>
-  <div style=" margin-left: 1100px; margin-top: 10px;"><i class="fa fa-phone"></i> 98989898989</div>
-  
-  <nav class="nav">
-	<img style="max-width: 100%;" src="xyz.jpg">
-	<ul class="nav"> 
-        <li><a href="index.html" style="color: grey; text-decoration: none;">Home</a> </li>
-		<li><a href="aboutus.html" style="color: grey; text-decoration: none;">About</a></li>
-		<li><a href="#" style="color: grey; text-decoration: none;">Courses</a>    </li>
-		<li><a href="#" style="color: grey; text-decoration: none;">Contact</a></li>
-		<li><a href="#" style="color: grey; text-decoration: none;">Join Us</a> </li>
-	
-	<li><button onclick="#">Subscribe</button></li>
-</ul>
-</nav>
 
-<div class="hero" style="height: 600px;">
-
-	<div class="hero-text">
-    <h1 style="font-size:50px; color: white;">RANDOM TITLE</h1>
-    <p style="font-size: 30px; color: white;">Your Ambition Our Aspiration</p>
-
-    <input class="email" type="text" name="email" placeholder="        YOUR EMAIL"><button class="stayupdated">STAY UPDATED</button>
-</div>
-</div>	
-
-<section class="Features">
- <h3 style="text-align: center;"><b>WHY CHOOSE US?</b></h3>
-  <div class="container">
-    <div class="row">
-     <div class="col-md-4">
-      <i class="fa fa-graduation-cap"></i>
-     	<h4 > PERSONALISED LEARNING</b></h4>
-     	  <p style="text-align: center;">
-     	Instruction in which the pace of learning and the instructional approach are optimised for the needs of each learner.
-          </p>
-    </div>
-     <div class="col-md-4">
-       <i class="fa fa-camera"></i>
-       <h4> ORGANIZED APPROACH</h4>
-       <p style="text-align: center;">
-     		All knowledge is shared in a way that what is seen is correlated with the way that it is seen.
-       </p>
-     </div>
-      <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 > YEARS OF EXPERTISE</h4>
-     	<p style="text-align: center;">
-				Have trained over 45000+ professionals through a network of 1500 experts trainers and 20 experts
-        </p>
-      </div>
-      <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 >RENOWED FACULTY</h4>
-     	<p style="text-align: center;">
-				Learn from highly qualified and experienced industry practitioners
-        </p>
-      </div>
-      <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 >IMPART KNOWLEDGE</h4>
-     	<p style="text-align: center;">
-				Ensure the things your people need to know are remembered, and put into practice
-        </p>
-      </div>
-      <div class="col-md-4">
-       <i class="fa fa-envelope"></i>
-       <h4 >MEASURE IMPACT ON RESULTS</h4>
-     	<p style="text-align: center;">
-				Tie learning prograammers directly to business outcomes to show the value of your programs
-        </p>
-      </div>
-     </div>
-  </div>
-</section>
-
-
-<section style="background-color: #EFECE6; ">
-	<div  style="background-image: url('stay.jpg'); max-width: 100%; margin-top: 30px;  height: 300px;"></div>
-	<h3 style="text-align: center; margin-top: -210px; color: white;"><b>STAY UPDATED</b></h3>
-
-	<div style=" background-color: white; margin-top: 60px; width: 1000px; height: 600px; margin-left: auto; margin-right: auto;">
-<!--scroller-->
-		<script type="text/javascript">
-    
-$(document).ready(function(){
-    
- jQuery.fn.liScroll = function(settings) {
-    settings = jQuery.extend({
-        travelocity: 0.03
-        }, settings);       
-        return this.each(function(){
-                var $strip = jQuery(this);
-                $strip.addClass("newsticker")
-                var stripHeight = 1;
-                $strip.find("li").each(function(i){
-                    stripHeight += jQuery(this, i).outerHeight(true); // thanks to Michael Haszprunar and Fabien Volpi
-                });
-                var $mask = $strip.wrap("<div class='mask'></div>");
-                var $tickercontainer = $strip.parent().wrap("<div class='tickercontainer'></div>");                             
-                var containerHeight = $strip.parent().parent().height();    //a.k.a. 'mask' width   
-                $strip.height(stripHeight);         
-                var totalTravel = stripHeight;
-                var defTiming = totalTravel/settings.travelocity;   // thanks to Scott Waye     
-                function scrollnews(spazio, tempo){
-                $strip.animate({top: '-='+ spazio}, tempo, "linear", function(){$strip.css("top", containerHeight); scrollnews(totalTravel, defTiming);});
-                }
-                scrollnews(totalTravel, defTiming);             
-                $strip.hover(function(){
-                jQuery(this).stop();
-                },
-                function(){
-                var offset = jQuery(this).offset();
-                var residualSpace = offset.top + stripHeight;
-                var residualTime = residualSpace/settings.travelocity;
-                scrollnews(residualSpace, residualTime);
-                });         
-        }); 
-};
-
-$(function(){
-    $("ul#ticker01").liScroll();
-});
-
-    });
-  
-    </script>
-		<div class="row">
-  <div class="holder" class="col-md-4 ">
-    <h6 style="text-align: center;"> NEWS</h6>
-  <ul style="margin-top: 50px;"  id="ticker01">
-              <li><span>10/10/2018</span><a href="#"> The first thing that most Javascript programmers</a></li>
-              <li><span>10/10/2018</span><a href="#"> End up doing is adding some code</a></li>
-              <li><span>10/10/2018</span><a href="#"> The code that you want to run</a></li>
-              <li><span>08/10/2018</span><a href="#"> Inside of which is the code that you want to run</a></li>
-              <li><span>08/10/2018</span><a href="#"> Right when the page is loaded</a></li>
-              <li><span>05/10/2018</span><a href="#"> Problematically, however, the Javascript code</a></li>
-              <li><span>04/10/2018</span><a href="#"> The first thing that most Javascript programmers</a></li>
-              <li><span>04/10/2018</span><a href="#"> End up doing is adding some code</a></li>
-              <li><span>04/10/2018</span><a href="#"> The code that you want to run</a></li>
-              <li><span>03/10/2018</span><a href="#"> Inside of which is the code that you want to run</a></li>
-              <li><span>03/10/2018</span><a href="#"> Right when the page is loaded</a></li>
-              <li><span>01/10/2018</span><a href="#"> Problematically, however, the Javascript code</a></li>
-        </ul>
-</div>
-
-<div class="holder" class="col-md-4 ">
-    <h6 style="text-align: center;"> CALENDER</h6>
-  <ul style="margin-top: 50px;"  id="ticker01">
-              <li><span>10/10/2018</span><a href="#"> The first thing that most Javascript programmers</a></li>
-              <li><span>10/10/2018</span><a href="#"> End up doing is adding some code</a></li>
-              <li><span>10/10/2018</span><a href="#"> The code that you want to run</a></li>
-              <li><span>08/10/2018</span><a href="#"> Inside of which is the code that you want to run</a></li>
-              <li><span>08/10/2018</span><a href="#"> Right when the page is loaded</a></li>
-              <li><span>05/10/2018</span><a href="#"> Problematically, however, the Javascript code</a></li>
-              <li><span>04/10/2018</span><a href="#"> The first thing that most Javascript programmers</a></li>
-              <li><span>04/10/2018</span><a href="#"> End up doing is adding some code</a></li>
-              <li><span>04/10/2018</span><a href="#"> The code that you want to run</a></li>
-              <li><span>03/10/2018</span><a href="#"> Inside of which is the code that you want to run</a></li>
-              <li><span>03/10/2018</span><a href="#"> Right when the page is loaded</a></li>
-              <li><span>01/10/2018</span><a href="#"> Problematically, however, the Javascript code</a></li>
-        </ul>
-</div>
-<div class="holder" class="col-md-4 ">
-    <h6 style="text-align: center;"> EXAM UPDATES</h6>
-  <ul style="margin-top: 50px;"  id="ticker01">
-              <li><span>10/10/2018</span><a href="#"> The first thing that most Javascript programmers</a></li>
-              <li><span>10/10/2018</span><a href="#"> End up doing is adding some code</a></li>
-              <li><span>10/10/2018</span><a href="#"> The code that you want to run</a></li>
-              <li><span>08/10/2018</span><a href="#"> Inside of which is the code that you want to run</a></li>
-              <li><span>08/10/2018</span><a href="#"> Right when the page is loaded</a></li>
-              <li><span>05/10/2018</span><a href="#"> Problematically, however, the Javascript code</a></li>
-              <li><span>04/10/2018</span><a href="#"> The first thing that most Javascript programmers</a></li>
-              <li><span>04/10/2018</span><a href="#"> End up doing is adding some code</a></li>
-              <li><span>04/10/2018</span><a href="#"> The code that you want to run</a></li>
-              <li><span>03/10/2018</span><a href="#"> Inside of which is the code that you want to run</a></li>
-              <li><span>03/10/2018</span><a href="#"> Right when the page is loaded</a></li>
-              <li><span>01/10/2018</span><a href="#"> Problematically, however, the Javascript code</a></li>
-        </ul>
-</div>
-
-</div>
-
-
-
-</div>
-
-
-	</div>
-	<div style="height: 50px; background-color: #EFECE6;">
-	</div>
-</section>
-
-	
-
-<section>
-<section style="background-color: white; height: 600px;">
-	<div style="float: left; background-color: black; width: 30%; height: 400px; margin-left: 120px; margin-top: 90px;"></div>
-	<div style="margin-right: 120px; margin-top: 140px; float: right; background-color: white; width: 30%; height: 400px;">
-		<h5  style="background-color: white;  margin-left: 10px; font-weight: bold;">BMS/BBA</h5>
-		<p style="background-color: white; margin-top: 20px;">Our intensive BBA program focuses on enhancing the ability to communicate, analyse situations, present own views infront of a large audience, take deciions usingb quantitative and qualitative factors, and develop holistic view of the different functional areas of business environment. This course helps one become more adept in differant aspect of running a business.</p>
-		<a href="bba.html" ><button class="stay_btn">Explore More</button></a>
-	</div>
-</section>
-
-
-
-
-<section style="background-color:  #EFECE6; height: 600px;">
-	<div style="float: right; background-color: black; width: 30%; height: 400px; margin-right: 120px; margin-top: 90px;"></div>
-	<div style="margin-left: 120px; margin-top: 140px; float: left; background-color:  #EFECE6; width: 30%; height: 400px;">
-		<h5  style="background-color:  #EFECE6;  margin-right: 10px; font-weight: bold;">LAW</h5>
-		<p style="background-color:  #EFECE6; margin-top: 20px;">Our intensive Law program focuses on enhancing the ability to communicate, analyse situations, present own views infront of a large audience, take deciions usingb quantitative and qualitative factors, and develop holistic view of the different functional areas of business environment. This course helps one become more adept in differant aspect of running a business.</p>
-		<button class="stay_btn">Explore More</button>
-	</div>
-</section>
-
-
-<section style="background-color: white; height: 600px;">
-	<div style="position: absolute; float: left; background-color: black; width: 30%; height: 400px; margin-left: 120px; margin-top: 90px;"></div>
-	<div style="margin-right: 120px; margin-top: 140px; float: right; background-color: white; width: 30%; height: 400px;">
-		<h5  style="background-color: white;  margin-left: 10px; font-weight: bold;">MASS COMMUNICATION</h5>
-		<p style="background-color: white; margin-top: 20px;">Our intensive BBA program focuses on enhancing the ability to communicate, analyse situations, present own views infront of a large audience, take deciions usingb quantitative and qualitative factors, and develop holistic view of the different functional areas of business environment. This course helps one become more adept in differant aspect of running a business.</p>
-		<button class="stay_btn">Explore More</button>
-	</div>
-</section>
-
-
-
-<section style="background-color:  #EFECE6; height: 600px;">
-	<div style="float: right; background-color: black; width: 30%; height: 400px; margin-right: 120px; margin-top: 90px;"></div>
-	<div style="margin-left: 120px; margin-top: 140px; float: left; background-color:  #EFECE6; width: 30%; height: 400px;">
-		<h5  style="background-color:  #EFECE6;  margin-right: 10px; font-weight: bold;">HOTEL MANAGEMENT</h5>
-		<p style="background-color:  #EFECE6; margin-top: 20px;">Our intensive Law program focuses on enhancing the ability to communicate, analyse situations, present own views infront of a large audience, take deciions usingb quantitative and qualitative factors, and develop holistic view of the different functional areas of business environment. This course helps one become more adept in differant aspect of running a business.</p>
-		<button class="stay_btn">Explore More</button>
-	</div>
-</section>
-
-</section>
-
-
-
-</style>
-
-	<section style="height: 550px;" class="testimonials ">
-      	<h3 style="text-align: center;">TESTIMONIALS</h3>    	
-      		<div class="row">
-            <div class="col-md-4">
-            		<p>
-            			Temple of learning classes brought numerous concepts together in a "simple" and cohesive package.
-            		</p>
-                <div class="arrowdown"></div>
-                  <cite><img src="img/nadal.jpg">JATIN Law Student</cite>
-            	</div>
-            	<div class="col-md-4">
-            		<p>
-            			The session conducted by Temple of learning was very informative. It is surely added value and helped me to take better decision.
-            		</p>
-                 <div class="arrowdown"></div>
-                  <cite><img src="img/nadal.jpg">MITHUN Hotel Management</cite>
-            	</div>
-            	<div class="col-md-4">
-            		<p>
-	            		"Awesome class. All the concepts taught in a very easy manner..."
-            		</p>
-                 <div class="arrowdown"></div>
-                  <cite><img src="img/nadal.jpg">SUKRITI 11th class </cite>
-            	</div>
-         </div>
-      </section> 
-
-
-	
-<div style="display: inline-block; background-color: #EFECE6; height: 700px;">	
-
-		<h3 style="text-align: center; margin-top: 30px;">BLOG</h3>
-
-<div style="margin-left: 1220px;" class="pagination">
-  <a href="#">❮</a>
-  <a href="#">❯</a>
-</div>
-	
-<div style="margin: 20px auto 0 auto" class="card-deck">
-  
-  <div style="border-style: none;" class="card "  >
-    <img class="card-img-top" src="blog2.PNG" alt="Card image cap">
-    <div class="card-block" style="text-align: center; margin-top: 20px;">
-      <h4 class="card-title">FUTURE IN MASS COMMUNICATION</h4>
-      <p class="card-text">There is a rapid expansion in the mass communication industry in the last 10 years, with more and more nnews channel and media houses coming into picture every year.</p>
-    </div>
-    
-  </div>
-
-  <div style="border-style: none;"   class="card ">
-    <img class="card-img-top" src="blog2.PNG" alt="Card image cap">
-    <div class="card-block" style="text-align: center; margin-top: 20px;">
-      <h4 class="card-title">2017 CLAT PREFERENCES</h4>
-      <p class="card-text">As last year, we have a game compiled our super 30 rank list of clat toppers preferences first indicative seat allotment list (hat-tip to CLAT mentor Rajneesh Singh for the data).</p>
-    </div>
-    
-  </div>
-  
-  <div style="border-style: none;"  class="card "  >
-    <img class="card-img-top" src="blog2.PNG" alt="Card image cap">
-    <div class="card-block" style="text-align: center; margin-top: 20px;">
-      <h4 class="card-title">WHY STUDY BBA</h4>
-      <p class="card-text">Most established in india now offer BBA or Bachelor's in Business Administration courses. Similar to an MBA, A BBA degree aims to equip an individual with knowledge of the various aspects of business.</p>
-    </div>
-    
-  </div>
-</div>                         
-</div>
-
-<footer style="background-color: black; height: 350px; ">
-	
-	
-	<div class="row" style="color: white; ">
+<body style="background-image: url('images/longboard.jpg')">
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '1750816354941221',
+            xfbml      : true,
+            version    : 'v2.12'
+          });
+        
+          FB.AppEvents.logPageView();
+        
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+         
+		// login with facebook with extra permissions
+		function login() {
+			FB.login(function(response) {
+				if (response.status === 'connected') {
+		    		document.getElementById('status').innerHTML = 'We are connected.';
+		    		document.getElementById('login').style.visibility = 'hidden';
+		    	} else if (response.status === 'not_authorized') {
+		    		document.getElementById('status').innerHTML = 'We are not logged in.'
+		    	} else {
+		    		document.getElementById('status').innerHTML = 'You are not logged into Facebook.';
+		    	}
+			}, {scope: 'email'});
+		}
 		
-		<div class="col-md-4" style="  color: grey;">
-		<div style="margin-left: 50px; margin-top: 70px;">		
-		<img src="...">
-		<p style="margin-top: 40px; width: 250px;">  ipsum dolor sit amet, inim ven shds hjdshs hsjkdjs shdkjsk</p>
-		<h6 style="margin-top: 50px;">18000 - 8080 - 880</h6>
-		<p>Available from 9am - 6pm</p>
-		</div>
-	</div>
+		// getting basic user info
+		function getInfo() {
+			FB.api('/me', 'GET', {fields: 'first_name,last_name,name,id'}, function(response) {
+				document.getElementById('status').innerHTML = response.id;
+			});
+		}
+      </script>
 
-		<div class="col-md-2" >
-			<h6 style="color: grey; margin-top: 70px;">Temple of Learning</h6>
-			<ul style="list-style: none;line-height: 30px; margin-left: -40px; ">
-				<li><a href="#" style="color: white; text-decoration: none;">Home		</a></li>
-				<li><a href="#" style="color: white; text-decoration: none;">About	Us	</a></li>
-				<li><a href="#" style="color: white; text-decoration: none;">Courses	</a></li>
-				<li><a href="#" style="color: white; text-decoration: none;">Blog        </a></li>
-				<li><a href="#" style="color: white; text-decoration: none;">Centres     </a></li>
-				<li><a href="#" style="color: white; text-decoration: none;">Contact     </a></li>
-			</ul>
-		</div>
-			
-		<div class="col-md-6" >
-			<div style="margin-left: 60px; margin-top: 70px;">
-				<h6 style="margin-top: 30px ; color: grey;">Get Our Newsletter</h6>	
-			    <input style="margin-top: 20px; border-top-left-radius: 25px;border-bottom-left-radius: 25px;height: 40px;width: 300px;" type="text" name="email" placeholder="        YOUR EMAIL"><button class="subs">SUBSCRIBE</button>
-			    <h6 style="color: grey; margin-top: 50px ;">Connect with us</h6>
-			    </div>
-    	<div class="wrapper">
+    <div class="footer-social-icons">
+        <ul class="social-icons">
+            <li><a href="https://twitter.com/rishikumar2552" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rishikumar2552/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/rishikumar2552" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/cloud.2552/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div
 
-   <ul>
-      <li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
-   	<li><a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-google " aria-hidden="true"></i></a></li>
-   	<li><a href="#"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
-   </ul>
-   </div>
-	</div>
-	</div>
+<div class="hero-image">
+  <div class="hero-text">
 
-	
-</footer>
-
-
-<div style="background-color: grey; height: 70px;"> 
-<div style="margin-left: 60px; margin-top: 20px; display: inline-block; color: white"> &copy 2018 Temple of Learning   <a  href="#" style="margin-left: 20px; color: white; text-decoration: none;">info@tol.com</a> <a href="#" style="margin-left: 650px; color: white; text-decoration: none;">Terms of Use</a>
-<a href="#"  style="margin-left: 20px; color: white; text-decoration: none;"> Privacy Policy</a>
+    
+        <h1 class="year">This week. I will <a href="" class="typewrite" data-period="2000" data-type='[ "Learn More.", "Code More.","Travel More.", "Live More.", "Love More." ]'></a>
+      </h1>
+   
+    <h3>This Hurricane will hit you Soon..!</h3>
+  </div>
 </div>
-</div>
+
+
+<!-- <canvas data-processing-sources="hello-web.pde"></canvas>
+
+    <script type="text/processing" data-processing-target="processing-canvas">
+    void setup() {
+       size(200, 200);
+       background(100);
+       stroke(255);
+       ellipse(50, 50, 25, 25);
+       println('hello web!');
+     }
+     </script>
+      <div  style="z-index: 1000;"> 
+      <canvas id="processing-canvas"> </canvas> --> 
 </body>
 </html>
