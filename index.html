@@ -73,6 +73,17 @@
     <h3>This Hurricane will hit you Soon..!</h3>
   </div>
 </div>
+	<button onclick="login()">login</button>
+	
+<button onclick="onButtonClick()">login</button>
+	
+	<script>
+	function onButtonClick() {
+  // Add this to a button's onclick handler
+  FB.AppEvents.logEvent("sentFriendRequest");
+}
+	</script>
+    
 
 
 <!-- <canvas data-processing-sources="hello-web.pde"></canvas>
